@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".activity.AboutActivity">
+
+    <TextView
+        android:id="@+id/developed_by"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:text="DEVELOPED BY"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Display1" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/about_us_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/developed_by"
+        android:layout_marginTop="90dp" />
+
+    <ImageView
+        android:layout_width="90dp"
+        android:id="@+id/school_logo"
+        android:layout_height="90dp"
+        android:layout_below="@id/about_us_recycler_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/ucll" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="12dp"
+        android:gravity="center_horizontal"
+        android:text="BusIT Week 2018, UCLL"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+</RelativeLayout>

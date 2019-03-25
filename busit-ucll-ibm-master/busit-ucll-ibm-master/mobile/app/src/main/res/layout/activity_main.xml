@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="be.cosci.ibm.ucllwatson.activity.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/icon_go_to_search"
+        android:foreground="?attr/selectableItemBackground"
+        android:onClick="openHistory" />
+
+    <Button
+        android:id="@+id/button_capture"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/icon_take_a_picture"
+        android:foreground="?attr/selectableItemBackground"
+        android:onClick="takeAPicture" />
+</android.support.design.widget.CoordinatorLayout>

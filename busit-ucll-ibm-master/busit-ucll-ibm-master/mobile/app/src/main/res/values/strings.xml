@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UcllWatson</string>
+    <string name="activity_history_title">History</string>
+    <string name="main_not_connected">You are not connected. Connect and try it again.</string>
+    <string name="search_ingredients">Ingredients</string>
+    <string name="search_recipes">Recipes</string>
+    <string name="about_title_activity">About us</string>
+</resources>
